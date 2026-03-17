@@ -133,15 +133,6 @@ database_name = "vault1-dev"
 database_id = "${D1_DATABASE_ID_DEV}"
 migrations_dir = "migrations"
 
-# R2 bucket for file attachments in dev environment (optional, requires credit card)
-# [[env.dev.r2_buckets]]
-# binding = "ATTACHMENTS_BUCKET"
-# bucket_name = "warden-attachments-dev"
-
-# KV namespace for file attachments in dev environment (optional, no credit card required)
-[[env.dev.kv_namespaces]]
-binding = "ATTACHMENTS_KV"
-
 # logs
 [env.dev.observability]
 [env.dev.observability.logs]
